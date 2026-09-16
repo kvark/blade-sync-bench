@@ -1,0 +1,12 @@
+[submodule "blade"]
+	path = blade
+	url = https://github.com/kvark/blade.git
+	branch = jcgt-extension
+[submodule "wgpu"]
+	path = wgpu
+	url = https://github.com/kvark/wgpu.git
+	branch = jcgt-extension
+[submodule "bevy"]
+	path = bevy
+	url = https://github.com/kvark/bevy.git
+	branch = jcgt-extension
