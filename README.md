@@ -14,10 +14,15 @@ right sibling layout:
 
 ```text
 blade-sync-bench/
-  blade/   # kvark/blade  @ jcgt-extension
-  wgpu/    # kvark/wgpu   @ jcgt-extension
-  bevy/    # kvark/bevy   @ jcgt-extension
+  collect.py
+  results/   # timing + validation land here, not in the Blade submodule
+  blade/     # kvark/blade  @ jcgt-extension
+  wgpu/      # kvark/wgpu   @ jcgt-extension
+  bevy/      # kvark/bevy   @ jcgt-extension
 ```
+
+The collector prints `Results: results/<timestamp>-<host>` at start. Pass
+`--output /somewhere/else` to override.
 
 Extra arguments pass through (clock pin first; see
 `blade/paper/COLLECTING.md`):
